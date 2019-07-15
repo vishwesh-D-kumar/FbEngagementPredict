@@ -16,6 +16,7 @@ $django manage.py runserver
 Open another terminal and do the following :
 $cd MainApp/scrapy_app
 $scrapyd
+Open http://127.0.0.1:8000/FBEngagementPredict/
 
 Instaling Dependencies required :
 pip install django scrapy scrapyd python-scrapyd-api

@@ -1,0 +1,8 @@
+<h1>{{ main.siteurl}}</h1>
+{{main.lastcrawled}}
+<ol>
+{% for subsite in main.subsites_set.all %}
+    <li>{{ subsite.subsiteurl }}</li>
+    <br>
+{% endfor %}
+</ol>

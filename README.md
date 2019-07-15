@@ -1,6 +1,6 @@
 # FbEngagementPredict
 This app currently does the following:
-  -Scrapes a given domain for all websites using a web crawler(spider) built on the scrapy module(with a limit of 100 sites due to porcessign power limit)
+  -Scrapes a given domain for all websites using a web crawler(spider) built on the scrapy module(with a limit of 100 sites due to porcessing power limit)
   -Saves the same onto a database for further processing
  
 Currently working on adding features such as:
